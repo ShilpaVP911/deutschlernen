@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutschlernen: Ob & Falls (B1 Vorbereitung)</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            width: 100%;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        main {
+            max-width: 800px;
+            width: 90%;
+            margin: 2rem auto;
+        }
+
+        .mission-box {
+            background: #e1f5fe;
+            border-left: 5px solid var(--accent-color);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--accent-color);
+        }
+
+        .card p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #eee;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.5rem; }
+            .card { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deutschlernen</h1>
+        <p>Mastering German Conjunctions for the B1 Exam</p>
+    </header>
+
+    <main>
+        <div class="mission-box">
+            <strong>Current Mission:</strong> Master the difference between <em>ob</em>, <em>falls</em>, and <em>wenn</em> to pass the B1 German Exam with confidence.
+        </div>
+
+        <section>
+            <h2>Lessons</h2>
+            <div class="grid">
+                <a href="ob-falls/lessons/0001-mastering-ob.html" class="card">
+                    <span class="tag">Lesson 1</span>
+                    <h3>Mastering "Ob"</h3>
+                    <p>Learn the "Whether Test" and how to handle indirect questions with correct word order.</p>
+                </a>
+                <div class="card" style="opacity: 0.6; cursor: not-allowed;">
+                    <span class="tag">Lesson 2</span>
+                    <h3>The Rare "Falls"</h3>
+                    <p>Coming Soon: When to use 'falls' instead of 'wenn' for low-probability conditions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Quick Reference</h2>
+            <div class="grid">
+                <a href="ob-falls/reference/conjunctions-cheat-sheet.html" class="card">
+                    <h3>Conjunction Cheat Sheet</h3>
+                    <p>A quick comparison table of Ob vs. Falls vs. Wenn for last-minute review.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 German Learning Workspace. Prepared for B1 Certification.
+    </footer>
+</body>
+</html>
